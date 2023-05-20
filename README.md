@@ -61,7 +61,7 @@ with_normals = '_withN'
 ```
 @article{Sintov2023,
   Title                    = {Object Recognition using Simple Kinesthetic Haptics},
-  Author                   = {Avishai Sintov and Inbar Ben-David},
+  Author                   = {Avishai Sintov and Inbar Meir},
   Journal                  = {International Journal of Robotics Research},
   year = {Accepted, May 2023},
 }
