@@ -1,3 +1,11 @@
+'''
+Code written by:
+Dr. Avishai Sintov
+Robotics lab, Tel-Aviv University
+Email: sintov1@tauex.tau.ac.il
+May 2023
+'''
+
 import numpy as np 
 import matplotlib.pyplot as plt 
 import pickle

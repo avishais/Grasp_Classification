@@ -1,4 +1,11 @@
-# mlp for multiclass classification
+'''
+Code written by:
+Dr. Avishai Sintov
+Robotics lab, Tel-Aviv University
+Email: sintov1@tauex.tau.ac.il
+May 2023
+'''
+
 from numpy import argmax
 from pandas import read_csv
 from sklearn.model_selection import train_test_split
@@ -13,7 +20,7 @@ import time
 from grasps_3d import grasps
 from shuffle_unison import shuffle_in_unison
 
-
+H = [307] * 8
 num_fingers = 4
 with_normals = '_withN'
 
@@ -41,7 +48,7 @@ print(X_train.shape, X_test.shape, y_train.shape, y_test.shape)
 # determine the number of input features
 n_features = X_train.shape[1]
 
-H = [307] * 8
+
 print('Using model of size: ', H)
 
 # define model
