@@ -11,10 +11,10 @@ Sh = shapes_3d()
 G = grasps()
 
 # Generate a set of M grasp samples for each object
-M = 1000
+M = 10000
 
 # Determine number of fingers in a grasp sample
-num_fingers = 3
+num_fingers = 4
 
 # To include normal at the grasp ('_withN') or not ('_noN')
 with_normals = '_withN'
